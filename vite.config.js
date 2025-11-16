@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: "/student_survay_PWA/",   // REQUIRED for GitHub Pages
+  // base: "/student_survay_PWA/",   // REQUIRED for GitHub Pages
   plugins: [
     react(),
     VitePWA({
